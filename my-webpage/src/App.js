@@ -6,16 +6,26 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          slkdjfsdjfk
+        <p
+          className='Text-color'
+        >
+          testpage
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/tristanma3"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          @tristanma3
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/JeffreyGao0112"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @JeffreyGao0112
         </a>
       </header>
     </div>
