@@ -4,15 +4,31 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="sidebarl">
-        Fuck You
+      <div class="topnav">
+        <b href="#home">
+          <img id = "container" src={logo} className="App-logo" alt="logo" />
+        </b>
+        <a href="#a">Fuck</a>
+        <a href="#b">You</a>
+        <a href="#c">Jeffrey</a>
+        <a href="#d">Gao</a>
       </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p
           className='Text-color'
         >
-          testpage
+          Hi, fuckers
+        </p>
+        <p
+          className='Text-color'
+        >
+          I'm Kourizon and
+        </p>
+        <p
+          className='Text-color'
+        >
+          I like kids.
         </p>
         <a
           className="App-link"
@@ -31,10 +47,6 @@ function App() {
           @JeffreyGao0112
         </a>
       </header>
-      <div className="sidebarr">
-        Tristan
-      </div>
-
     </div>
   );
 }
