@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div class="topnav">
         <b href="#home">
-          <img id = "container" src={logo} className="App-logo" alt="logo" />
+          <img id = "container" src={logo} className="App-logo1" alt="logo" />
         </b>
         <a href="#a">Fuck</a>
         <a href="#b">You</a>
@@ -14,7 +14,9 @@ function App() {
         <a href="#d">Gao</a>
       </div>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div test>
+          <img id = "container1" src={logo} className="App-logo" alt="logo" />
+        </div>
         <p
           className='Text-color'
         >

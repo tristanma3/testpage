@@ -12,15 +12,32 @@
 .App-logo:hover {
   scale: 0.5
 }
+.App-logo1 {
+  transition: all .5s ease-in-out;
+  height: 40vmin;
+}
 #container {
   width: 50px;
   height: 50px;
 }
+#container1 {
+  width: 250px;
+  height: 250px;
+  border: 1px solid;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 5s linear;
   }
-  .App-logo:hover{
+  .test:hover .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+  .App-logo1{
+    animation: App-logo-spin infinite 5s linear;
+  }
+  .topnav b:hover .App-logo1 {
+    scale: 0.8;
     animation: App-logo-spin infinite 2s linear;
   }
 }
@@ -56,14 +73,14 @@
 .Text-color:hover {
   color:crimson
 }
-p {
+/* p {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 50px;
-}
+} */
 
 .topnav {
   background-color: #333;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -74,6 +91,7 @@ p {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  height: 24px;
 }
 
 .topnav b {
@@ -85,18 +103,18 @@ p {
   font-size: 1px;
 }
 .topnav b:hover {
-  background-color: #ddd;
+  background-color: #282c34;
   color: black;
-  animation: App-logo-spin infinite 2s linear;
 }
+
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #282c34;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #282c34;
   color: white;
 }
