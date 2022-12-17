@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Mybackground from './components/Mybackground.jsx'
+
 
 function App() {
   return (
     <div className="App">
+      
       <div class="topnav">
         <b href="#home">
           <img id = "container" src={logo} className="App-logo1" alt="logo" />
@@ -14,6 +17,7 @@ function App() {
         <a href="#d">Gao</a>
       </div>
       <header className="App-header">
+        <Mybackground />
         <div test>
           <img id = "container1" src={logo} className="App-logo" alt="logo" />
         </div>
