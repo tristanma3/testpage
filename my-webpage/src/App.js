@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Mybackground from './components/Mybackground.jsx'
+import Carousel, { CarouselItem } from './components/Carousel.js'
 
 
 function App() {
@@ -53,7 +54,14 @@ function App() {
           @JeffreyGao0112
         </a>
       </header>
+      <Carousel>
+          <CarouselItem>Tristan...</CarouselItem>
+          <CarouselItem>Is...</CarouselItem>
+          <CarouselItem>A...</CarouselItem>
+          <CarouselItem>Whore!</CarouselItem>
+      </Carousel>
     </div>
+    
   );
 }
 
