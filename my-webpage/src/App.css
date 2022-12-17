@@ -7,12 +7,9 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
 }
 .App-logo:hover {
-  color:black;
-  height: 80vmin;
-  pointer-events: none;
+  scale: 0.5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -59,8 +56,14 @@ p {
   font-size: 50px;
 }
 
-.sidebar {
+.sidebarl{
   width: 12vw;
   font-size: 20px;
-  
+  background-color: #282c34;
+}
+.sidebarr{
+  text-align:right;
+  width: 12vw;
+  font-size: 20px;
+  background-color: #282c34;
 }

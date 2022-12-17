@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="sidebar">
+      <div className="sidebarl">
         Fuck You
       </div>
       <header className="App-header">
@@ -31,7 +31,7 @@ function App() {
           @JeffreyGao0112
         </a>
       </header>
-      <div className="sidebar">
+      <div className="sidebarr">
         Tristan
       </div>
 
