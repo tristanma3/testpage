@@ -4,6 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="sidebar">
+        Fuck You
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p
@@ -28,6 +31,10 @@ function App() {
           @JeffreyGao0112
         </a>
       </header>
+      <div className="sidebar">
+        Tristan
+      </div>
+
     </div>
   );
 }
