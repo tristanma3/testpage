@@ -36,7 +36,7 @@
   .App-logo1{
     animation: App-logo-spin infinite 5s linear;
   }
-  .topnav b:hover .App-logo1 {
+  #topnav b:hover .App-logo1 {
     scale: 0.8;
     animation: App-logo-spin infinite 2s linear;
   }
@@ -86,9 +86,16 @@
   left:0;
   right:0;
 }
+#topnav {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
 
 /* Style the links inside the navigation bar */
-.topnav a {
+#topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -98,7 +105,7 @@
   height: 24px;
 }
 
-.topnav b {
+#topnav b {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -106,13 +113,13 @@
   text-decoration: none;
   font-size: 1px;
 }
-.topnav b:hover {
+#topnav b:hover {
   background-color: #282c34;
   color: black;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+#topnav a:hover {
   background-color: #282c34;
   color: white;
 }

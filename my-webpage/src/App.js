@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       
-      <div class="topnav">
+      <div id="topnav">
         <b href="#home">
           <img id = "container" src={logo} className="App-logo1" alt="logo" />
         </b>
@@ -63,6 +63,17 @@ function App() {
     </div>
     
   );
+}
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("topnav").style.top = "0";
+  } else {
+    document.getElementById("topnav").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
 }
 
 export default App;
