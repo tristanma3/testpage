@@ -1,45 +1,14 @@
-import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import React from "react"
+import '../App.css';
+import logo from '../logo.svg';
+import Mybackground from '../components/Mybackground.jsx';
+import Carousel, { CarouselItem } from '../components/Carousel.js';
+import UnityChessAppImage from '../assets/ChessTrackerIcon.png';
 
-import logo from './logo.svg';
-import Mybackground from './components/Mybackground.jsx';
-import Carousel, { CarouselItem } from './components/Carousel.js';
-import UnityChessAppImage from './assets/ChessTrackerIcon.png';
-import Home from "./Pages/Home";
-import ErrorPage from "./Pages/ErrorPage";
-import OpeningTheory from './Pages/OpeningTheory';
-function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
-        
-        <div class="topnav">
-          <b href="/">
-            <img id = "container" src={logo} className="App-logo1" alt="logo" />
-          </b>
-          <a href="/">Home</a>
-          <a href="OpeningTheory">OpeningTheory</a>
-          <a href="asdfasdfasdf">placeholder</a>
-          <a href="ErrorPage">ErrorPage</a>
-        </div>
-
-      </div>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/OpeningTheory" element={<OpeningTheory/>} />
-          <Route path="*" element={<ErrorPage/>} />
-        </Routes>
-
-
-    </BrowserRouter>
-
-    
-  );
-}
-
-export default App;
-
-/* OLD CODE
+function HomePage() {
+    return(
+        <div className="App">
+            
             <header className="App-header">
               <Mybackground />
               <div test>
@@ -96,4 +65,11 @@ export default App;
                 <img src = {UnityChessAppImage}/>
               </a>
             </div>
-*/
+       
+        </div>
+    );
+
+    
+}
+
+export default HomePage
